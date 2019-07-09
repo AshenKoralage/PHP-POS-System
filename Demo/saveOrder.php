@@ -20,7 +20,7 @@ if(!$connection){
     $SQL="INSERT INTO orders VALUES('$cid','$oid','$date','$details')";
     $result=mysqli_query($connection,$SQL);
     if ($result){
-        echo "Order Added aaa";
+        echo "Order Added";
     }else{
         echo "Order Not Added";
         mysqli_error($connection);

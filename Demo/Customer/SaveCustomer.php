@@ -22,7 +22,7 @@ if(!$connection){
     $SQL="INSERT INTO customer VALUES('$Cname','$email','$cid','$address','$tel','$city','$zip')";
     $result=mysqli_query($connection,$SQL);
     if($result){
-        echo "Customer Added";
+        echo "Customer Added ";
     }else{
         echo "Customer not added";
         mysqli_error($connection);

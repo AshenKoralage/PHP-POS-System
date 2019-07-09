@@ -2,24 +2,25 @@
 /**
  * Created by IntelliJ IDEA.
  * User: Ashen Koralage
- * Date: 6/29/2019
- * Time: 6:07 PM
+ * Date: 6/30/2019
+ * Time: 8:35 AM
  */
 ?>
 <?php
-$cid=$_POST['cid'];
+$itemCode=$_POST['itemCode'];
 include "../db Connection.php";
 
 if(!$connection){
-   echo mysqli_connect_error();
+    echo mysqli_connect_error();
 }else{
-    $SQL="DELETE FROM customer WHERE cid='$cid'";
+    $SQL="DELETE FROM item WHERE itemCode='$itemCode'";
 }
 $result=mysqli_query($connection,$SQL);
 if ($result){
-    echo "Customer Deleted";
+    echo "Item Deleted";
 }else{
-    echo "Can't Delete Customer";
+    echo "Can't Delete Item";
     mysqli_error($connection);
 }
 ?>
+

@@ -17,7 +17,7 @@ if(!$connection){
 }
 $result=mysqli_query($connection,$SQL);
 if ($result){
-    echo "Item Deleted";
+    echo "Item Deleted ddsfsdsd";
 }else{
     echo "Can't Delete Item";
     mysqli_error($connection);

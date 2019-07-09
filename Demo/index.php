@@ -459,14 +459,13 @@ $result = mysqli_query($connection, $query);
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="js/jquery-3.4.1.min.js"></script>
-<script src="SaveCustomer.js"></script>
-<script src="DeleteCustomer.js"></script>
-<script src="UpdateCustomer.js"></script>
+<script src="Customer/SaveCustomer.js"></script>
+<script src="Customer/DeleteCustomer.js"></script>
+<script src="Customer/UpdateCustomer.js"></script>
 <script src="Item/SaveItem.js"></script>
 <script src="Item/DeleteItem.js"></script>
 <script src="saveOrder.js"></script>
 <script src="deleteOrder.js"></script>
-<script src="updateOrder.php"></script>
 <script src="Item/UpdateItem.js"></script>
 
 </body>

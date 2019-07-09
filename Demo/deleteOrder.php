@@ -17,7 +17,7 @@ if(!$connection){
 }
 $result=mysqli_query($connection,$SQL);
 if ($result){
-    echo "Order Deleted wdsds";
+    echo "Order efrefe Deleted";
 }else{
     echo "Can't Delete Order";
     mysqli_error($connection);
