@@ -1,7 +1,7 @@
 $("#updateItem").click(function () {
     var itemUpdate = $("#ItemForm").serialize();
     $.ajax({
-        url:"Item/UpdateItem.php",
+        url:"UpdateItem.php",
         method:"POST",
         async:true,
         data:itemUpdate

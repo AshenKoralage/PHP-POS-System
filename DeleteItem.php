@@ -8,7 +8,7 @@
 ?>
 <?php
 $itemCode=$_POST['itemCode'];
-include "../db Connection.php";
+include "db Connection.php";
 
 if(!$connection){
     echo mysqli_connect_error();

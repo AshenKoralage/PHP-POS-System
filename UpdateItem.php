@@ -13,7 +13,7 @@ $qty=$_POST['qty'];
 $unitPrice=$_POST['unitPrice'];
 $itemDetails=$_POST['itemDetails'];
 
-include '../db Connection.php';
+include 'db Connection.php';
 
 if(!$connection){
     mysqli_connect_error();

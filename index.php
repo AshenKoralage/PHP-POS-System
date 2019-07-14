@@ -64,17 +64,39 @@
     </style>
 </head>
 <body>
+<!--get data using combobox-->
+<?php
+if (isset($_POST['search'])){
+    $itemCode=mysqli_real_escape_string($connection,$_POST['itemCode']);
+    $values="select * from item where itemCode='$itemCode'";
+    $data=mysqli_query($connection,$values);
+
+}
+?>
+<!--end get data using combobox-->
+<!--customer table-->
 <?php
 include "db Connection.php"; ?>
 <?php $SQl = "SELECT * FROM customer";
 $resultset = mysqli_query($connection, $SQl);
 ?>
-<?php $SQLITEM = "SELECT * FROM item";
+<!--item table-->
+<?php
+include "db Connection.php";
+$SQLITEM = "SELECT * FROM item";
 $resultsetItem = mysqli_query($connection, $SQLITEM);
 ?>
+<!--item combo box-->
+<?php
+include "db Connection.php";
+$sql = "SELECT * FROM item";
+$resultset2 = mysqli_query($connection, $sql);
+?>
+<!--order table-->
 <?php $OrderSQL="select * from orders";
 $resultsetOrder=mysqli_query($connection,$OrderSQL);
 ?>
+<!--combo box values-->
 <?php
 include 'db Connection.php';
 $query = "select * from customer";
@@ -83,7 +105,7 @@ $result = mysqli_query($connection, $query);
 
 <ul class="nav1 justify-content-start">
     <li class="nav-item">
-        <h1 style="float: left "><img src="image/Shopping-icons-09-512.png" border="50" height="50"
+        <h1 style="float: left "><img src="images/Shopping-icons-09-512.png" border="50" height="50"
                                       style="background-color: white">POS System</h1>
     </li>
 </ul>
@@ -101,9 +123,9 @@ $result = mysqli_query($connection, $query);
             <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab"
                aria-controls="v-pills-messages" aria-selected="false" style="font-size: 15px;font-weight: normal"><i
                         class="fas fa-cart-plus" style="font-size: 30px"></i> Manage Items</a>
-            <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
-               aria-controls="v-pills-settings" aria-selected="false" style="font-size: 15px;font-weight: normal"><i
-                        class="fas fa-shopping-basket" style="font-size: 30px"></i> Manage Orders</a>
+<!--            <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"-->
+<!--               aria-controls="v-pills-settings" aria-selected="false" style="font-size: 15px;font-weight: normal"><i-->
+<!--                        class="fas fa-shopping-basket" style="font-size: 30px"></i> Manage Orders</a>-->
 
             <a class="nav-link" id="v-pills-place-tab" data-toggle="pill" href="#v-pills-place" role="tab"
                aria-controls="v-pills-place" aria-selected="false" style="font-size: 15px;font-weight: normal"> <i
@@ -160,7 +182,7 @@ $result = mysqli_query($connection, $query);
                     <div class="card" style="padding-right: 50px;margin: 200px;width:500px;height: 250px">
                         <div class="card-body">
                             <!--<h5 class="card-title">-->
-                            <img src="image/chart-update-default.png" style="width: 500px;height: 250px" alt="">
+                            <img src="images/chart-update-default.png" style="width: 500px;height: 250px" alt="">
                             <!--</h5>-->
                             <p class="card-text"></p>
                             <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
@@ -322,16 +344,24 @@ $result = mysqli_query($connection, $query);
                     </div>
                     <div class="row" style="background-color: #343a40;margin: 20px">
                         <div class="col">
-                            <div class="dropdown">
-                                <select id="cmbSelectItem">
-                                    <option selected disabled hidden value="">Select Item Code</option>
-                                </select>
-                            </div>
+                               <label>Item ID</label>
+                            <select name="itemCode">
+                                <?php
+                                while ($results2=mysqli_fetch_row($resultset2)){
+                                    echo "<tr>
+                                <option>$results2[1]</option>
+                                </tr>";
+                                }
+                                mysqli_close($connection);
+                                ?>
+                            </select>
+
                         </div>
-                        <div class="col">
-                            <div style="color: white">Item Name: <label id="lblItemName" style="color: white"></label>
-                            </div>
-                        </div>
+<!--                        <div class="col">-->
+<!--                            <div style="color: white">Item Name: <label id="lblItemName" style="color: white">-->
+<!--                                </label>-->
+<!--                            </div>-->
+<!--                        </div>-->
 
                         <div class="col">
                             <div style="color: white">qty On hand: <label id="lblqtyonhand"
@@ -351,25 +381,35 @@ $result = mysqli_query($connection, $query);
 
                     <div class="row" style="background-color: #343a40;margin: 20px">
                         <div class="col">
-                            <div class="dropdown">
-                                <select id="cmbSelectcustomer">
-                                    <option selected disabled hidden value="">Select Customer ID</option>
-                                </select>
-                            </div>
+                            <lable>Customer ID</lable>
+                            <select name="cid">
+                                <?php
+                                while ($rowdatas=mysqli_fetch_row($result)){
+                                    echo "<tr>
+                                <option>$rowdatas[2]</option>
+                                </tr>";
+                                }
+                                mysqli_close($connection);
+                                ?>
+                            </select>
+<!--                            <div class="dropdown">-->
+<!--                                <select id="cmbSelectcustomer">-->
+<!--                                    <option selected disabled hidden value="">Select Customer ID</option>-->
+<!--                                </select>-->
+<!--                            </div>-->
                         </div>
-                        <div class="col">
-                            <div style="color: white">Customer Name : <label id="lblCustomerName"
-                                                                             style="color: white"></label>
-                            </div>
-                        </div>
-
+<!--                        <div class="col">-->
+<!--                            <div style="color: white">Customer Name : <label id="lblCustomerName"-->
+<!--                                                                             style="color: white"></label>-->
+<!--                            </div>-->
+<!--                        </div>-->
+                        <button type="button" class="btn btn-success" id="btnadd">Proceed</button>
                     </div>
                     <table class="table">
                         <thead class="thead-dark">
                         <tr>
                             <th class="text-center">Order ID</th>
                             <th class="text-center">Order Date</th>
-                            <th class="text-center">Item Name</th>
                             <th class="text-center">Item ID</th>
                             <th class="text-center">Qty</th>
                             <th class="text-center">Unit Price</th>
@@ -381,8 +421,6 @@ $result = mysqli_query($connection, $query);
                         </tbody>
                     </table>
                 </form>
-                <h3 style="text-align: left;margin-right: 80px">Total : <br> Rs:0000.00</h3>
-                <button type="button" class="btn btn-success" id="btnadd">Proceed</button>
             </div>
             <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
                 <form id="orderForm">
@@ -462,12 +500,12 @@ $result = mysqli_query($connection, $query);
 <script src="SaveCustomer.js"></script>
 <script src="DeleteCustomer.js"></script>
 <script src="UpdateCustomer.js"></script>
-<script src="Item/SaveItem.js"></script>
-<script src="Item/DeleteItem.js"></script>
+<script src="SaveItem.js"></script>
+<script src="DeleteItem.js"></script>
 <script src="saveOrder.js"></script>
 <script src="deleteOrder.js"></script>
 <script src="updateOrder.php"></script>
-<script src="Item/UpdateItem.js"></script>
+<script src="UpdateItem.js"></script>
 
 </body>
 </html>

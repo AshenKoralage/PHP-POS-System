@@ -2,20 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88e10db9-4772-46ca-8760-6379e2500992" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DeleteCustomer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UpdateOrder.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Shopping-icons-09-512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/chart-update-default.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Customer/DeleteCustomer.js" beforeDir="false" afterPath="$PROJECT_DIR$/DeleteCustomer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Customer/DeleteCustomer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Customer/SaveCustomer.js" beforeDir="false" afterPath="$PROJECT_DIR$/SaveCustomer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Customer/SaveCustomer.php" beforeDir="false" afterPath="$PROJECT_DIR$/SaveCustomer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Customer/UpdateCustomer.js" beforeDir="false" afterPath="$PROJECT_DIR$/UpdateCustomer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Customer/UpdateCustomer.php" beforeDir="false" afterPath="$PROJECT_DIR$/UpdateCustomer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Item/DeleteItem.php" beforeDir="false" afterPath="$PROJECT_DIR$/Item/DeleteItem.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deleteOrder.php" beforeDir="false" afterPath="$PROJECT_DIR$/deleteOrder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Item/DeleteItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/DeleteItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Item/DeleteItem.php" beforeDir="false" afterPath="$PROJECT_DIR$/DeleteItem.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Item/SaveItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/SaveItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Item/SaveItem.php" beforeDir="false" afterPath="$PROJECT_DIR$/SaveItem.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Item/UpdateItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/UpdateItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Item/UpdateItem.php" beforeDir="false" afterPath="$PROJECT_DIR$/UpdateItem.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saveOrder.php" beforeDir="false" afterPath="$PROJECT_DIR$/saveOrder.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,46 +20,66 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1050940808">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="22" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.107" value="1" />
+          <entry key="project.open.time.135" value="1" />
           <entry key="project.open.time.137" value="1" />
-          <entry key="project.open.time.2" value="2" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.2" value="6" />
+          <entry key="project.open.time.3" value="4" />
+          <entry key="project.open.time.4" value="3" />
           <entry key="project.open.time.77" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.open.time.91" value="1" />
+          <entry key="project.open.time.98" value="1" />
+          <entry key="project.opened" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="2" />
-          <entry key="js" value="28" />
-          <entry key="php" value="47" />
+          <entry key="js" value="32" />
+          <entry key="php" value="57" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="2" />
-          <entry key="JavaScript" value="28" />
-          <entry key="PHP" value="47" />
+          <entry key="JavaScript" value="32" />
+          <entry key="PHP" value="57" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="js" value="780" />
-          <entry key="php" value="2856" />
+          <entry key="php" value="3604" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="HTML" value="22" />
           <entry key="JavaScript" value="780" />
-          <entry key="PHP" value="2855" />
+          <entry key="PHP" value="3581" />
           <entry key="SQL" value="1" />
         </counts>
       </usages-collector>
@@ -74,44 +90,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="400" column="93" lean-forward="true" selection-start-line="400" selection-start-column="93" selection-end-line="400" selection-end-column="93" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UpdateOrder.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/updateOrder.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UpdateCustomer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UpdateCustomer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+            <state relative-caret-position="235">
+              <caret line="124" column="94" lean-forward="true" selection-start-line="124" selection-start-column="94" selection-end-line="124" selection-end-column="94" />
             </state>
           </provider>
         </entry>
@@ -134,7 +114,6 @@
         <option value="$PROJECT_DIR$/js/SaveCustomer.js" />
         <option value="$PROJECT_DIR$/js/DeleteCustomer.js" />
         <option value="$PROJECT_DIR$/Item/SaveItem.js" />
-        <option value="$PROJECT_DIR$/SaveItem.php" />
         <option value="$PROJECT_DIR$/js/SaveItem.js" />
         <option value="$PROJECT_DIR$/Item/SaveItem.php" />
         <option value="$PROJECT_DIR$/Item/DeleteItem.js" />
@@ -161,8 +140,14 @@
         <option value="$PROJECT_DIR$/DeleteCustomer.php" />
         <option value="$PROJECT_DIR$/UpdateCustomer.php" />
         <option value="$PROJECT_DIR$/UpdateOrder.js" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/updateOrder.php" />
+        <option value="$PROJECT_DIR$/DeleteItem.js" />
+        <option value="$PROJECT_DIR$/DeleteItem.php" />
+        <option value="$PROJECT_DIR$/SaveItem.js" />
+        <option value="$PROJECT_DIR$/SaveItem.php" />
+        <option value="$PROJECT_DIR$/UpdateItem.js" />
+        <option value="$PROJECT_DIR$/UpdateItem.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -184,7 +169,7 @@
       <server host="localhost" id="11a8be29-7216-4411-8ec1-2c445c855d0a" name="Thogakade" />
     </servers>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="675" />
     <option name="y" value="-8" />
     <option name="width" value="699" />
@@ -196,6 +181,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -213,29 +200,28 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562649257229" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563075870408" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/POS-PHP" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\IdeaProjects\Thogakade\Demo" />
-      <recent name="G:\IdeaProjects\Thogakade" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\IdeaProjects\Thogakade" />
       <recent name="G:\IdeaProjects\Thogakade\Item" />
       <recent name="G:\IdeaProjects\Thogakade\js" />
       <recent name="G:\IdeaProjects\Thogakade\Customer" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\IdeaProjects\Thogakade\images" />
+      <recent name="G:\IdeaProjects\Thogakade\Demo" />
+      <recent name="G:\IdeaProjects\Thogakade" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -279,25 +265,37 @@
       <workItem from="1562555164597" duration="750000" />
       <workItem from="1562578553974" duration="1290000" />
       <workItem from="1562641532639" duration="3186000" />
-      <workItem from="1562645465890" duration="3539000" />
+      <workItem from="1562645465890" duration="8366000" />
+      <workItem from="1562726222351" duration="1872000" />
+      <workItem from="1562761957179" duration="56000" />
+      <workItem from="1562819109251" duration="546000" />
+      <workItem from="1562819927925" duration="313000" />
+      <workItem from="1562824936862" duration="621000" />
+      <workItem from="1562836654074" duration="4687000" />
+      <workItem from="1562903305932" duration="92000" />
+      <workItem from="1562985729759" duration="252000" />
+      <workItem from="1562990909139" duration="10000" />
+      <workItem from="1562991749528" duration="141000" />
+      <workItem from="1562994496096" duration="1060000" />
+      <workItem from="1562999079319" duration="953000" />
+      <workItem from="1563068205162" duration="6777000" />
+      <workItem from="1563083757553" duration="22000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40121000" />
+    <option name="totallyTimeSpent" value="62350000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="675" y="-8" width="699" height="744" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25567323" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3865415" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -310,6 +308,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24960753" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -317,7 +316,7 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Database" order="7" weight="0.3286385" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.3286385" />
     </layout>
   </component>
@@ -335,52 +334,10 @@
     <entry file="file://$PROJECT_DIR$/css/grid.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Item/DeleteItem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Item/SaveItem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="3" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Item/SaveItem.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/saveOrder.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Item/UpdateItem.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Item/UpdateItem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db Connection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
@@ -418,31 +375,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Item/DeleteItem.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/deleteOrder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeleteCustomer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeleteCustomer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -457,20 +393,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SaveCustomer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UpdateCustomer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -490,15 +412,92 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/UpdateCustomer.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UpdateCustomer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeleteCustomer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeleteCustomer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db Connection.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SaveCustomer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeleteItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeleteItem.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SaveItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SaveItem.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UpdateItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UpdateItem.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="400" column="93" lean-forward="true" selection-start-line="400" selection-start-column="93" selection-end-line="400" selection-end-column="93" />
+        <state relative-caret-position="235">
+          <caret line="124" column="94" lean-forward="true" selection-start-line="124" selection-start-column="94" selection-end-line="124" selection-end-column="94" />
         </state>
       </provider>
     </entry>
